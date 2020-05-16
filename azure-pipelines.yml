@@ -16,18 +16,5 @@ resources:
      name : sbui/emt
      ref : refs/heads/master
 steps:
-- task: UniversalPackages@0
-  inputs:
-    command: 'download'
-    downloadDirectory: '$(System.DefaultWorkingDirectory)'
-    feedsToUse: 'internal'
-    vstsFeed: '3161d910-fde8-4efa-b018-27c09b4b4085/f34eb1a2-b096-4e66-83d4-612175e26096'
-    vstsFeedPackage: '0c6d7b8c-d61c-48e6-a94b-6ee2138626fe'
-    vstsPackageVersion: '7.7.20200330'
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- checkout: emt
+  
