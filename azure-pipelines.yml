@@ -9,6 +9,12 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+resources:
+ repositories:
+   - repository: emt
+     type : github
+     name : sbui/emt
+     ref : refs/heads/master
 steps:
 - task: UniversalPackages@0
   inputs:
