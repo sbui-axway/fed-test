@@ -13,7 +13,7 @@ resources:
  repositories:
    - repository: emt
      type : github
-     name : sbui/emt
+     name : sbui-axway/emt
      ref : refs/heads/master
      endpoint: sbui-axway
 steps:
