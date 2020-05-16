@@ -15,6 +15,7 @@ resources:
      type : github
      name : sbui/emt
      ref : refs/heads/master
+     endpoint: https://github.com/sbui-axway/emt.git
 steps:
 - checkout: emt
   
