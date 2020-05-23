@@ -19,7 +19,7 @@ resources:
      endpoint: sbui-axway
 steps:
 - checkout: emt
-  path: /opt/Axway/source
+  path: /opt/Axway
 - task: Bash@3
   inputs:
     filePath: '/opt/Axway/apigateway/posix/bin/projpack'
