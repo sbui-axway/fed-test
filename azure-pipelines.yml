@@ -12,7 +12,7 @@ pool:
 
 resources:
  repositories:
-   - repository: emt
+   - repository: self
      type : github
      name : sbui-axway/emt
      ref : refs/heads/master
