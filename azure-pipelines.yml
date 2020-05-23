@@ -18,6 +18,7 @@ resources:
      ref : refs/heads/master
      endpoint: sbui-axway
 steps:
+- checkout : self
 - task: Bash@3
   inputs:
     filePath: '/opt/Axway/apigateway/posix/bin/projpack'
