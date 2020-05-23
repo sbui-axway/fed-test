@@ -14,4 +14,4 @@ steps:
 - task: Bash@3
   inputs:
     filePath: '/opt/Axway/apigateway/posix/bin/projpack'
-    arguments: '--create'
+    arguments: '--create --name=test --add /home/user1/apiprojects/proj1'
