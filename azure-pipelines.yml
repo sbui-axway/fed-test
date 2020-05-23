@@ -8,7 +8,7 @@ trigger:
 - master
 
 pool:
-  name: 'fed_builder'
+  name: 'Default'
 
 resources:
  repositories:
