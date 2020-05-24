@@ -19,8 +19,4 @@ resources:
      endpoint: sbui-axway
 steps:
 - checkout : self
-- task: Bash@3
-  inputs:
-    filePath: '/opt/Axway/apigateway/posix/bin/projpack'
-    arguments: '--create --name=test --add /azp/agent/_work/1/s'
-  
+- script: "/opt/Axway/apigateway/posix/bin/projpack --create --name=test --add /azp/agent/_work/1/s/"
