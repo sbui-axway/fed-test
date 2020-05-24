@@ -196,12 +196,12 @@
  <assembly id='UPGRADED'>
   <name>Upgraded Configuration</name>
   <description>Upgraded Assembly, generated Fri Apr 03 17:44:06 CEST 2020</description>
-  <component id='CertStore-cc2c2599-b457-41b2-81d8-b9cfbb30d9a6'/>
-  <component id='EnvSettingsStore-4b53527f-300c-44db-acf9-314866b80c0e'/>
-  <component id='ExtConnsStore-dadcb041-753a-46ab-864a-f2c0c4c7e5c3'/>
-  <component id='ListenersStore-1a7dbdde-b6a2-4d32-8f8d-9985917ff3d2'/>
-  <component id='PrimaryStore-3c7e5168-c019-4216-9a09-c61d09d171b1'/>
-  <component id='ResourceRepository-d33274b8-79a9-4835-8688-73acc313f76c'/>
-  <component id='UserStore-b48d11b9-e3f9-45b8-b0a8-13b6890e5538'/>
+  <component id='CertStore'/>
+  <component id='EnvSettingsStore'/>
+  <component id='ExtConnsStore'/>
+  <component id='ListenersStore'/>
+  <component id='PrimaryStore'/>
+  <component id='ResourceRepository'/>
+  <component id='UserStore'/>
  </assembly>
 </configuration>
