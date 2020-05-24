@@ -19,4 +19,4 @@ resources:
      endpoint: sbui-axway
 steps:
 - checkout : self
-- script: "/opt/Axway/apigateway/posix/bin/projpack --create --name=test --add /azp/agent/_work/1/s/"
+- script: "/opt/Axway/apigateway/posix/bin/projpack --create --name=test --type=fed --passphrase-none --projpass-none  --add /azp/agent/_work/1/s/"
