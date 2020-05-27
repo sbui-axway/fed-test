@@ -14,7 +14,7 @@ resources:
  repositories:
    - repository: self
      type : github
-     name : sbui-axway/fed-test
+     name : sbui-axway/ref-env
      ref : refs/heads/master
      endpoint: sbui-axway
 steps:
